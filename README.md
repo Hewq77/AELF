@@ -14,13 +14,6 @@
     </div>
 </div>
 
-
-## 🧠 Framework
-<figure>
-<img src=./assets/AELF_Framework.png> 
-<figcaption align = "center"><b> </b></figcaption>
-</figure>
-
 ## ⚙️ Environment
 ```
 conda create -n aelf python=3.9
