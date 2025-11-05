@@ -16,7 +16,10 @@
 
 
 ## 🧠 Framework
-![AELF](assets/AELF_Framework.pdf)
+<figure>
+<img src=./assets/AELF_Framework.png> 
+<figcaption align = "center"><b> </b></figcaption>
+</figure>
 
 ## ⚙️ Environment
 ```
