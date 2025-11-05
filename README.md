@@ -1,18 +1,11 @@
-<div align="center" style="text-decoration: none !important;">
-    <h1>
-      <a href="https://ieeexplore.ieee.org/document/11202498" target="_blank" style="text-decoration: none !important;">[TGRS'2025] Adaptive Expert Learning for Hyperspectral and Multispectral Image Fusion</a> 
-    </h1>
-    <div>
-        <a href='https://github.com/Hewq77' target='_blank' style="text-decoration: none !important;">Wangquan He<sup></sup></a>,&emsp;
-        <a href='#' target='_blank' style="text-decoration: none !important;">Yixun Cai<sup></sup></a>,&emsp;
-        <a href='https://github.com/renqi1998' target='_blank' style="text-decoration: none !important;">Qi Ren<sup></sup></a>,&emsp;
-        <a href='#' target='_blank' style="text-decoration: none !important;">Abuduwaili Ruze<sup></sup></a>,&emsp;
-        <a href='https://scholar.google.com/citations?user=UxbDMKoAAAAJ&hl=zh-CN&oi=ao' target='_blank' style="text-decoration: none !important;">Sen Jia<sup>&#8224;</sup></a>
-    </div>
-    <div>
-        <sup></sup>College of Computer Science and Software Engineering, Shenzhen University &emsp;
-    </div>
-</div>
+# [TGRS 2025] AELF: Adaptive Expert Learning Fusion
+
+
+> **Adaptive Expert Learning for Hyperspectral and Multispectral Image Fusion**
+>
+> [Wangquan He](https://github.com/Hewq77),  Yixun Cai,  [Qi Ren](https://github.com/renqi1998),  Abuduwaili Ruze,  [Sen Jia†](https://scholar.google.com/citations?user=UxbDMKoAAAAJ&hl=zh-CN&oi=ao)
+>
+> College of Computer Science and Software Engineering, Shenzhen University
 
 ## ⚙️ Environment
 ```
