@@ -9,7 +9,7 @@
 
 ## ⚙️ Environment
 ```
-conda create -n aelf python=3.9
+conda create -n aelf python=3.10
 conda activate aelf
 pip install -r requirements.txt
 ```
