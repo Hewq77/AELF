@@ -1,9 +1,8 @@
-# [TGRS 2025] AELF: Adaptive Expert Learning Fusion
-
+# [TGRS'2025] AELF: Adaptive Expert Learning Fusion
 
 > **Adaptive Expert Learning for Hyperspectral and Multispectral Image Fusion**
 >
-> [Wangquan He](https://github.com/Hewq77),  Yixun Cai,  [Qi Ren](https://github.com/renqi1998),  Abuduwaili Ruze,  [Sen Jia†](https://scholar.google.com/citations?user=UxbDMKoAAAAJ&hl=zh-CN&oi=ao)
+> [Wangquan He](https://github.com/Hewq77), Yixun Cai, [Qi Ren](https://github.com/renqi1998), Abuduwaili Ruze, [Sen Jia†](https://scholar.google.com/citations?user=UxbDMKoAAAAJ&hl=zh-CN&oi=ao)
 >
 > College of Computer Science and Software Engineering, Shenzhen University
 
