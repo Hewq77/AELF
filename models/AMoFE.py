@@ -8,37 +8,6 @@ import scipy.linalg
 from . import thops
 # import thops
 
-# Feature Enconder
-class HinResBlock(nn.Module):
-    def __init__(self, in_ch, out_ch, relu_slope=0.2, use_hin=True):
-        super(HinResBlock, self).__init__()
-
-        self.use_hin = use_hin
-        self.conv1 = nn.Conv2d(in_ch, out_ch, 3, 1, 1, bias=True)
-        self.conv2 = nn.Conv2d(out_ch, out_ch, 3, 1, 1, bias=True)
-        self.act1 = nn.LeakyReLU(slope, inplace=False)
-        self.act2 = nn.LeakyReLU(slope, inplace=False)
-        if use_hin:
-            self.norm = nn.InstanceNorm2d(out_ch // 2, affine=True)
-
-    def forward(self, x):
-        resi = self.act1(self.conv1(x))
-        if self.use_hin:
-            out_1, out_2 = torch.chunk(resi, 2, dim=1)
-            resi = torch.cat([self.norm(out_1), out_2], dim=1)
-        resi = self.act2(self.conv2(resi))
-        return x + resi
-
-class FeatureEncoder(nn.Module):
-    def __init__(self,base_ch):
-        super(FeatureEncoder, self).__init__()
-        self.b1 = HinResBlock(base_ch,base_ch)
-        self.b2 = HinResBlock(base_ch,base_ch)
-
-    def forward(self,x):
-        return self.b2(self.b1(x))
-
-
 def conv(in_channels, out_channels, kernel_size, bias=False, stride = 1, padding = 1):
     return nn.Conv2d(
         in_channels, out_channels, kernel_size,
