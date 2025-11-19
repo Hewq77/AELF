@@ -206,11 +206,9 @@ class EdgeExpert(nn.Module):
         self.conv2 = nn.Conv2d(channels, channels, kernel_size=3, padding=1)
         
     def forward(self, hyper, multi):
-        # 提取边缘
         hyper_edge = torch.abs(self.edge_filters(hyper))
         multi_edge = torch.abs(self.edge_filters(multi))
         
-        # 融合边缘特征
         edge_fusion = torch.cat([hyper_edge, multi_edge], dim=1)
         edge_fusion = F.leaky_relu(self.conv1(edge_fusion))
         edge_fusion = self.conv2(edge_fusion)
